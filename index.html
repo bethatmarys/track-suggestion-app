@@ -1,76 +1,86 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Track choice</title>
   </head>
   <body>
-  </body>
     <div class="container">
-    <h1>Which track is best for you?</h1>
-      <h2>Following are a few questions to help you decide which track is the best fit for you.</h2>
+      <div class="jumbotron">
 
-        <form id="option">
+        <h1>Which track is best for you?</h1>
+        <h2>Following are a few questions to help you decide which track is the best fit for you.</h2>
+
+          <form id="option">
               <div class="radio">
                 <h3>What type of company would you rather work for?</h3>
                 <p><input type="radio" name="answer1" value="lg-corp"></p>
                 Large Corporation
-                <p><input type="radio" name="answer2" value="Sm-bus"></p>
+                <p><input type="radio" name="answer1" value="sm-bus"></p>
                 Small business
-                <p><input type="radio" name="answer3" value="St-up"></p>
+                <p><input type="radio" name="answer1" value="st-up"></p>
                 Start up
-                <p><input type="radio" name="answer4" value="Re"></p>
+                <p><input type="radio" name="answer1" value="remo"></p>
                 Remote
-                <p><input type="radio" name="answer5" value="Dnm"></p>
+                <p><input type="radio" name="answer1" value="dnm"></p>
                 Does not matter
               </div>
-        <form id="option">
               <div class="radio">
                 <h3>What type of projects do you like working on?</h3>
-                <p><input type="radio" name="answer4" value="bkend"></p>Back end
-                <p><input type="radio" name="answer5" value="ftend"></p>Front
+                <p><input type="radio" name="answer2" value="bkend"></p>Back end
+                <p><input type="radio" name="answer2" value="ftend"></p>Front
                 end
-                <p><input type="radio" name="answer6" value="apps"></p>Apps
-                <p><input type="radio" name="answer7" value="Dnm"></p>Does not matter
+                <p><input type="radio" name="answer2" value="apps"></p>Apps
+                <p><input type="radio" name="answer2" value="blah1"></p>Apps
+                <p><input type="radio" name="answer2" value="dnm"></p>Does not matter
               </div>
-        <form id="option">
               <div class="radio">
                 <h3>Question 3</h3>
-                <p><input type="radio" name="answer8" value="blah1"></p>blah blah
-                <p><input type="radio" name="answer9" value="blah2"></p>blah blah
-                <p><input type="radio" name="answer10" value="blah3"></p>blah blah
-                <p><input type="radio" name="answer11" value="blah4"></p>blah blah
-                <p><input type="radio" name="answer12" value="Dnm"></p>Does not matter
+                <p><input type="radio" name="answer3" value="blah1"></p>blah blah
+                <p><input type="radio" name="answer3" value="blah2"></p>blah blah
+                <p><input type="radio" name="answer3" value="blah3"></p>blah blah
+                <p><input type="radio" name="answer3" value="blah4"></p>blah blah
+                <p><input type="radio" name="answer3" value="dnm"></p>Does not matter
               </div>
-        <form id="option">
               <div class="radio">
                 <h3>Question 4</h3>
-                <p><input type="radio" name="answer13" value="blah1"></p>blah blah
-                <p><input type="radio" name="answer14" value="blah2"></p>blah blah
-                <p><input type="radio" name="answer15" value="blah3"></p>blah blah
-                <p><input type="radio" name="answer16" value="blah4"></p>blah blah
-                <p><input type="radio" name="answer17" value="Dnm"></p>Does not matter
+                <p><input type="radio" name="answer4" value="blah1"></p>blah blah
+                <p><input type="radio" name="answer4" value="blah2"></p>blah blah
+                <p><input type="radio" name="answer4" value="blah3"></p>blah blah
+                <p><input type="radio" name="answer4" value="blah4"></p>blah blah
+                <p><input type="radio" name="answer4" value="dnm"></p>Does not matter
               </div>
-        <form id="option">
               <div class="radio">
                 <h3>Question 5</h3>
-                <p><input type="radio" name="answer18" value="blah1"></p>blah blah
-                <p><input type="radio" name="answer19" value="blah2"></p>blah blah
-                <p><input type="radio" name="answer20" value="blah3"></p>blah blah
-                <p><input type="radio" name="answer21" value="blah4"></p>blah blah
-                <p><input type="radio" name="answer22" value="Dnm"></p>Does not matter
+                <p><input type="radio" name="answer5" value=""></p>blah blah
+                <p><input type="radio" name="answer5" value="blah2"></p>blah blah
+                <p><input type="radio" name="answer5" value="blah3"></p>blah blah
+                <p><input type="radio" name="answer5" value="blah4"></p>blah blah
+                <p><input type="radio" name="answer5" value="dnm"></p>Does not matter
               </div>
 
-              <h2>Our suggestion would be looking into this language based you your answers. </h2>
-                    <div class="bmwcoupegrn" id="java">
+              <button type="submit" class="btn">Submit</button>
+
+              <h2>based you your answers, our suggestion would be looking into this language.</h2>
+                    <div class="java" id="java">
                       <img src= "img/java.jpg" style="width: 450px;height:375px">
                     </div>
-                    <div class="bmwcoupered" id="newcar">
-                      <img src= "img/bmwcoupered.jpg" style="width: 450px;height:375px">
+                    <div class="ruby" id="ruby">
+                      <img src= "img1/ruby.jpg" style="width: 450px;height:375px">
                     </div>
-                    <div class="bmwcoupeblue" id="newcar">
-                      <img src= "img/bmwcoupeblue.jpg" style="width: 450px;height:375px">
+                    <div class="php" id="php">
+                      <img src= "img1/php.jpg" style="width: 450px;height:375px">
                     </div>
+                    <div class="c" id="c">
+                      <img src= "img1/c.jpg" style="width: 450px;height:375px">
+                    </div>
+                    <div class="css" id="css">
+                      <img src= "img1/css.jpg" style="width: 450px;height:375px">
+                    </div>
+      </div>
+    </div>
+  </body>
+</html>

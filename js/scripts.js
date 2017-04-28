@@ -1,19 +1,20 @@
 $(document).ready(function() {
-  $("form#option1").submit(function(event) {
+  $("form#option").submit(function(event) {
   var answer1 = $("input:radio[name=answer1]:checked").val();
-  var answer8 = $("input:radio[name=answer8]:checked").val();
-  var answer13 = $("input:radio[name=answer13]:checked").val();
-  var answer18 = $("input:radio[name=answer13]:checked").val();
+  var answer2 = $("input:radio[name=answer2]:checked").val();
+  var answer3 = $("input:radio[name=answer3]:checked").val();
+  var answer4 = $("input:radio[name=answer4]:checked").val();
+  var answer5 = $("input:radio[name=answer5]:checked").val();
 
-  if (answer1 === "lg-corp" && answer8 === "bkend" && answer13 === "bla1" && answer18 === "blah1") {
-    console.log(make, model, color);
+  if (answer1 === "lg-corp" && answer2 === "bkend" && answer3 === "blah1" && answer4 === "blah1" && answer5 "blah1") {
+    // console.log(make, model, color);
     $("#css").hide();
     $("#php").hide();
     $("#ruby").hide();
     $("#c").hide();
     $(".java").show();
   }
-  else if (make === "bmw" && model === "coupe" && color === "red") {
+  else if (answer1 === "sm-bus" && answer2 === "ftend" && answer3 === "bla2" && answer4 === "blah2" && answer5 "blah2") {
     console.log(make, model, color);
     $("#css").hide();
     $("#c").hide();
@@ -21,7 +22,7 @@ $(document).ready(function() {
     $("#java").hide();
     $(".php").show();
   }
-  else if (make === "bmw" && model === "coupe" && color === "blue") {
+  else if (answer1 === "st-up" && answer2 === "apps" && answer3 === "bla3" && answer4 === "blah3" && answer5 "blah3") {
     console.log(make, model, color);
     $("#css").hide();
     $("#php").hide();
@@ -29,7 +30,7 @@ $(document).ready(function() {
     $("#java").hide();
     $(".ruby").show();
   }
-  else if (make === "ferrari" && model === "coupe" && color === "green") {
+  else if (answer1 === "remo" && answer2 === "blah1" && answer3 === "bla1" && answer4 === "blah4" && answer5 "blah4") {
     console.log(make, model, color);
     $("#css").hide();
     $("#php").hide();
