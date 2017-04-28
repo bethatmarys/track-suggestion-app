@@ -6,15 +6,15 @@ $(document).ready(function() {
   var answer4 = $("input:radio[name=answer4]:checked").val();
   var answer5 = $("input:radio[name=answer5]:checked").val();
 
-  if (answer1 === "lg-corp" && answer2 === "bkend" && answer3 === "blah1" && answer4 === "blah1" && answer5 "blah1") {
+  if (answer1 === "lgcorp" && answer2 === "bkend" && answer3 === "blah1" && answer4 === "blah1" && answer5 "blah1") {
     console.log(answer1, answer2, answer3, answer4, answer5);
     $("#css").hide();
+    // $("#ruby").hide();
     $("#php").hide();
-    $("#ruby").hide();
     $("#c").hide();
     $(".java").show();
   }
-else if (answer1 === "sm-bus" && answer2 === "ftend" && answer3 === "bla2" && answer4 === "blah2" && answer5 "blah2") {
+else if (answer1 === "smbus" && answer2 === "ftend" && answer3 === "blah2" && answer4 === "blah2" && answer5 "blah2") {
     console.log(answer1, answer2, answer3, answer4, answer5);
     $("#css").hide();
     $("#c").hide();
@@ -22,22 +22,22 @@ else if (answer1 === "sm-bus" && answer2 === "ftend" && answer3 === "bla2" && an
     $("#java").hide();
     $(".php").show();
   }
-  else if (answer1 === "st-up" && answer2 === "apps" && answer3 === "bla3" && answer4 === "blah3" && answer5 "blah3") {
+  else if (answer1 === "stup" && answer2 === "apps" && answer3 === "blah3" && answer4 === "blah3" && answer5 "blah3") {
     console.log(answer1, answer2, answer3, answer4, answer5);
-    $("#css").hide();
-    $("#php").hide();
-    $("#c").hide();
-    $("#java").hide();
-    $(".ruby").show();
-  }
-  else if (answer1 === "remo" && answer2 === "blah1" && answer3 === "bla1" && answer4 === "blah4" && answer5 "blah4") {
+  $("#css").hide();
+  $("#php").hide();
+  $("#c").hide();
+  $("#java").hide();
+  $(".ruby").show();
+ }
+  else if (answer1 === "remo" && answer2 === "blah4" && answer3 === "blah4" && answer4 === "blah4" && answer5 "blah4") {
     console.log(answer1, answer2, answer3, answer4, answer5);
     $("#css").hide();
     $("#php").hide();
     $("#ruby").hide();
     $("#java").hide();
     $(".c").show();
-
+  }
   else {
       console.log(answer1, answer2, answer3, answer4, answer5);
       $("#css").hide();
