@@ -7,15 +7,15 @@ $(document).ready(function() {
   var answer5 = $("input:radio[name=answer5]:checked").val();
 
   if (answer1 === "lg-corp" && answer2 === "bkend" && answer3 === "blah1" && answer4 === "blah1" && answer5 "blah1") {
-    // console.log(make, model, color);
+    console.log(answer1, answer2, answer3, answer4, answer5);
     $("#css").hide();
     $("#php").hide();
     $("#ruby").hide();
     $("#c").hide();
     $(".java").show();
   }
-  else if (answer1 === "sm-bus" && answer2 === "ftend" && answer3 === "bla2" && answer4 === "blah2" && answer5 "blah2") {
-    console.log(make, model, color);
+else if (answer1 === "sm-bus" && answer2 === "ftend" && answer3 === "bla2" && answer4 === "blah2" && answer5 "blah2") {
+    console.log(answer1, answer2, answer3, answer4, answer5);
     $("#css").hide();
     $("#c").hide();
     $("#ruby").hide();
@@ -23,7 +23,7 @@ $(document).ready(function() {
     $(".php").show();
   }
   else if (answer1 === "st-up" && answer2 === "apps" && answer3 === "bla3" && answer4 === "blah3" && answer5 "blah3") {
-    console.log(make, model, color);
+    console.log(answer1, answer2, answer3, answer4, answer5);
     $("#css").hide();
     $("#php").hide();
     $("#c").hide();
@@ -31,7 +31,7 @@ $(document).ready(function() {
     $(".ruby").show();
   }
   else if (answer1 === "remo" && answer2 === "blah1" && answer3 === "bla1" && answer4 === "blah4" && answer5 "blah4") {
-    console.log(make, model, color);
+    console.log(answer1, answer2, answer3, answer4, answer5);
     $("#css").hide();
     $("#php").hide();
     $("#ruby").hide();
@@ -39,7 +39,7 @@ $(document).ready(function() {
     $(".c").show();
 
   else {
-      console.log(make, model, color);
+      console.log(answer1, answer2, answer3, answer4, answer5);
       $("#css").hide();
       $("#php").hide();
       $("#ruby").hide();

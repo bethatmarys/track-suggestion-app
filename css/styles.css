@@ -17,21 +17,6 @@ h3 {
   font-size: 20pt;
   font-weight:normal;;
   color: black;
+#instruction {
+  display: none;
 }
-/*body {
-    background-image: image(css/img1.bkgrd.jpg);*/
-/*}
-#css {
-    display: none;
-}
-#java {
-    display: none;
-}
-#ruby {
-    display: none;
-}
-#c {
-    display: none;
-}
-#php {
-    display: none;*/*/
