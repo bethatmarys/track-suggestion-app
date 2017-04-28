@@ -7,7 +7,7 @@ This is a simple input form to collect answers from the student to help narrow d
 
 No set up is required
 
-No known bugs
+Unknown bug in scripts.js line 9
 
 If you have any questions and/or suggestions please contact Beth Hansen at bethatmarys@gmail.com
 

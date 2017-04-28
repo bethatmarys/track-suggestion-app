@@ -9,7 +9,7 @@ $(document).ready(function() {
   if (answer1 === "lgcorp" && answer2 === "bkend" && answer3 === "blah1" && answer4 === "blah1" && answer5 "blah1") {
     console.log(answer1, answer2, answer3, answer4, answer5);
     $("#css").hide();
-    // $("#ruby").hide();
+    $("#ruby").hide();
     $("#php").hide();
     $("#c").hide();
     $(".java").show();
